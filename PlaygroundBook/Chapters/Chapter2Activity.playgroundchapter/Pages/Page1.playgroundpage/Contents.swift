@@ -10,7 +10,19 @@
  
  */
 
-//#-hidden-code
+/*:
+ 
+ ### Choosing your own data
+ 
+ (Press the "Run my Code" to access live Earthquake data.)
+ 
+ Complete the fields to display data
+ 
+ ## Data is limited to 20,000 records if this exceeds this no data is returned.
+ 
+ */
+
+///#-hidden-code
 //
 //  See LICENSE folder for this template’s licensing information.
 //
@@ -43,10 +55,12 @@ struct EarthQuakeInfo: Codable {
 struct MetaData: Codable {
     let generated: Int
     let title: String
+    let count: Int
     
     enum CodingKeys: String, CodingKey {
         case generated
         case title
+        case count
     }
 }
 
@@ -65,10 +79,18 @@ struct Features: Codable {
 struct FeaturesProperties: Codable {
     let mag: Double
     let place: String
+    let time: Int
+    let url: URL
+    let type: String
+    let title: String
     
     enum CodingKeys: String, CodingKey {
         case mag
         case place
+        case time
+        case url
+        case type
+        case title
     }
 }
 
@@ -82,9 +104,9 @@ struct FeaturesGeometry: Codable {
     }
 }
 
-func fetchEarthQuakeInfo(completion: @escaping (EarthQuakeInfo?) -> Void) {
-    let baseURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson"
-    let url = URL(string: baseURL)!
+func fetchEarthQuakeInfo(endTime: String, startTime: String, minMagnitude: Double, completion: @escaping (EarthQuakeInfo?) -> Void) {
+    let baseURL = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson"
+    let url = URL(string: baseURL + "&endtime=\(endTime)" + "&starttime=\(startTime)" + "&minmagnitude=\(minMagnitude)")!
     
     
     let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
@@ -118,10 +140,20 @@ extension EarthQuakeInfo {
                 let location = CLLocationCoordinate2DMake(Double(i.geometry.coordinates[1]), Double(i.geometry.coordinates[0]))
                 print(location)
                 annotation.coordinate = location
-                annotation.title = i.properties.place
+                annotation.title = i.properties.title
                 annotations.append(annotation)
             }
         }
+        
+        //        if let annotations = annotations {
+        //
+        //            annotations.canShowCallout = true
+        //            annotations.animatesDrop = true
+        //            annotations.calloutOffset = CGPoint(x: -5, y: 5)
+        //            annotations.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
+        //
+        //        }
+        
         return annotations
     }
 }
@@ -142,7 +174,15 @@ let camera = MKMapCamera(lookingAtCenter: mapRegion.center, fromDistance: 200000
 
 mapView.camera = camera
 
-fetchEarthQuakeInfo { (fetchedInfo) in
+//#-end-hidden-code
+
+let startTime = /*#-editable-code start date*/"2019-05-25"/*#-end-editable-code*/
+let endTime = /*#-editable-code start date*/"2019-05-31"/*#-end-editable-code*/
+let minMagnitude = /*#-editable-code start date*/2.0/*#-end-editable-code*/
+
+
+//#-hidden-code
+fetchEarthQuakeInfo(endTime: endTime, startTime: startTime, minMagnitude: minMagnitude) { (fetchedInfo) in
     if let fetchedInfo = fetchedInfo {
         print(fetchedInfo)
         print(fetchedInfo.asAnnotations)
