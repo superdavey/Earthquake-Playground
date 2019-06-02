@@ -1,48 +1,46 @@
 
-//
-//  See LICENSE folder for this template’s licensing information.
-//
-//  Abstract:
-//  The Swift file containing the source code edited by the user of this playground book.
-//
-
 /*:
  ### What causes earthquakes?
  
  
-The Earth's surface if always moving even if you cannot feel it.
- 
- 
+The Earth's surface if always moving even if you cannot feel it.  The Earth's crust is made up of pieces called Tectonic Plates.  Some are huge and some are small (By planet scale standards).  The plates come togethor like a very rough kigsaw.  However they are alwats moiving. Below is a map of the different tectonic plates.
 
  */
 
-
-
-//: A UIKit based Playground for presenting user interface
-
-//#-hidden-code
-import UIKit
-import PlaygroundSupport
-
-let view = UIView(frame: CGRect(x: 0, y: 0, width: 600, height: 400))
-view.backgroundColor = .white
-let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 600, height: 400))
-view.addSubview(imageView)
-
-
-if let sample = Bundle.main.path(forResource: "tectonicPlates", ofType: "png") {
-    let image = UIImage(contentsOfFile: sample)
-    imageView.image = image
-}
-
-PlaygroundPage.current.liveView = view
-PlaygroundPage.current.liveView
-
-//#-end-hidden-code
-
-
-
-
-
-
+/*:
+ 
+ ### Earth Tectonic Plates
+ 
+![The Earth's Tectonic Plates should be here](800px-Plates_tect2_en.png)
+ Source:https://en.wikipedia.org/wiki/Plate_tectonics
+ 
+ ### How plates move
+ 
+ The plates more against each other in four different ways.
+ 
+ * Divergent: the plates move apart. Spreading ridges, basin-range
+ ![The Earth's Tectonic Plates should be here](Continental-continental_constructive_plate_boundary.png)
+ 
+ * Transform: shearing; plates slide past each other. Strike-slip motion.
+  ![The Earth's Tectonic Plates should be here](Continental-continental_conservative_plate_boundary_opposite_directions.png)
+ 
+ * Convergent: compressional; plates move toward each other.
+ ![The Earth's Tectonic Plates should be here](800px-Continental-continental_destructive_plate_boundary.png)
+ 
+ * Subduction: During convergent one plate slide beneath another 
+  ![The Earth's Tectonic Plates should be here](800px-Oceanic-continental_destructive_plate_boundary.png)
+ 
+ The four types of movement result in different chnages to the Earth.  They build maountains, create valleys,, expand land or destroy it, or transform it as it moves.
+ 
+ ### Video: What the plate movement looks like
+ 
+ 
+ ![Plates Video](plateMovement.mp4)
+ Source: https://www.youtube.com/watch?v=ryrXAGY1dmE
+ 
+ 
+ The continual movement of plates means that the Earth is always changing underneath our feet even if we cannot notice the small changes.  However, when the plates move suddenly we can measure and record those changes.
+ 
+ */
+ 
 

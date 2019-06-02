@@ -20,7 +20,22 @@
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
-		848E709B22A0B1680022F1B1 /* tectonicPlates.png in Resources */ = {isa = PBXBuildFile; fileRef = 848E709A22A0B1670022F1B1 /* tectonicPlates.png */; };
+		84FE168422A362A800FE8A1F /* tectonicPlates.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168322A362A800FE8A1F /* tectonicPlates.png */; };
+		84FE168522A362A800FE8A1F /* tectonicPlates.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168322A362A800FE8A1F /* tectonicPlates.png */; };
+		84FE168722A367C300FE8A1F /* plateMovement.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168622A367C300FE8A1F /* plateMovement.mp4 */; };
+		84FE168822A367C300FE8A1F /* plateMovement.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168622A367C300FE8A1F /* plateMovement.mp4 */; };
+		84FE168E22A369AF00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168922A369AE00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png */; };
+		84FE168F22A369AF00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168922A369AE00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png */; };
+		84FE169222A369AF00FE8A1F /* Continental-continental_constructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168B22A369AE00FE8A1F /* Continental-continental_constructive_plate_boundary.png */; };
+		84FE169322A369AF00FE8A1F /* Continental-continental_constructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168B22A369AE00FE8A1F /* Continental-continental_constructive_plate_boundary.png */; };
+		84FE169422A369AF00FE8A1F /* 800px-Plates_tect2_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168C22A369AE00FE8A1F /* 800px-Plates_tect2_en.png */; };
+		84FE169522A369AF00FE8A1F /* 800px-Plates_tect2_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168C22A369AE00FE8A1F /* 800px-Plates_tect2_en.png */; };
+		84FE169622A369AF00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168D22A369AE00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png */; };
+		84FE169722A369AF00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168D22A369AE00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png */; };
+		84FE169A22A36D5300FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE169822A36D5200FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png */; };
+		84FE169B22A36D5300FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE169822A36D5200FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png */; };
+		84FE169C22A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE169922A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png */; };
+		84FE169D22A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE169922A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -112,7 +127,14 @@
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
-		848E709A22A0B1670022F1B1 /* tectonicPlates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tectonicPlates.png; sourceTree = "<group>"; };
+		84FE168322A362A800FE8A1F /* tectonicPlates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tectonicPlates.png; sourceTree = SOURCE_ROOT; };
+		84FE168622A367C300FE8A1F /* plateMovement.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = plateMovement.mp4; sourceTree = SOURCE_ROOT; };
+		84FE168922A369AE00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "800px-Continental-continental_destructive_plate_boundary.png"; path = "plate images/800px-Continental-continental_destructive_plate_boundary.png"; sourceTree = SOURCE_ROOT; };
+		84FE168B22A369AE00FE8A1F /* Continental-continental_constructive_plate_boundary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Continental-continental_constructive_plate_boundary.png"; path = "plate images/Continental-continental_constructive_plate_boundary.png"; sourceTree = SOURCE_ROOT; };
+		84FE168C22A369AE00FE8A1F /* 800px-Plates_tect2_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "800px-Plates_tect2_en.png"; path = "plate images/800px-Plates_tect2_en.png"; sourceTree = SOURCE_ROOT; };
+		84FE168D22A369AE00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Continental-continental_conservative_plate_boundary_opposite_directions.png"; path = "plate images/Continental-continental_conservative_plate_boundary_opposite_directions.png"; sourceTree = SOURCE_ROOT; };
+		84FE169822A36D5200FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "800px-Oceanic-continental_destructive_plate_boundary.png"; path = "plate images/800px-Oceanic-continental_destructive_plate_boundary.png"; sourceTree = SOURCE_ROOT; };
+		84FE169922A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1920px-Continental-continental_destructive_plate_boundary.png"; path = "plate images/1920px-Continental-continental_destructive_plate_boundary.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,7 +292,14 @@
 		84335004229EDA7100D27225 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				848E709A22A0B1670022F1B1 /* tectonicPlates.png */,
+				84FE169822A36D5200FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png */,
+				84FE169922A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png */,
+				84FE168922A369AE00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png */,
+				84FE168C22A369AE00FE8A1F /* 800px-Plates_tect2_en.png */,
+				84FE168D22A369AE00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png */,
+				84FE168B22A369AE00FE8A1F /* Continental-continental_constructive_plate_boundary.png */,
+				84FE168622A367C300FE8A1F /* plateMovement.mp4 */,
+				84FE168322A362A800FE8A1F /* tectonicPlates.png */,
 			);
 			name = Resources;
 			path = PlaygroundBook/Chapters/Resources;
@@ -381,9 +410,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848E709B22A0B1680022F1B1 /* tectonicPlates.png in Resources */,
+				84FE168422A362A800FE8A1F /* tectonicPlates.png in Resources */,
+				84FE169C22A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png in Resources */,
+				84FE168722A367C300FE8A1F /* plateMovement.mp4 in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
+				84FE169422A369AF00FE8A1F /* 800px-Plates_tect2_en.png in Resources */,
+				84FE169622A369AF00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png in Resources */,
+				84FE169A22A36D5300FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png in Resources */,
+				84FE168E22A369AF00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png in Resources */,
+				84FE169222A369AF00FE8A1F /* Continental-continental_constructive_plate_boundary.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +427,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FE169D22A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png in Resources */,
+				84FE168F22A369AF00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png in Resources */,
+				84FE169522A369AF00FE8A1F /* 800px-Plates_tect2_en.png in Resources */,
 				5EA2E3CA2056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard in Resources */,
+				84FE168522A362A800FE8A1F /* tectonicPlates.png in Resources */,
+				84FE168822A367C300FE8A1F /* plateMovement.mp4 in Resources */,
+				84FE169722A369AF00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png in Resources */,
+				84FE169322A369AF00FE8A1F /* Continental-continental_constructive_plate_boundary.png in Resources */,
+				84FE169B22A36D5300FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
