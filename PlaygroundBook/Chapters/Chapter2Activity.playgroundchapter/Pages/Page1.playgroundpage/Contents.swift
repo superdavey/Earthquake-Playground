@@ -1,6 +1,6 @@
 /*:
  
- ### Measuring the frequency of Earthquakes
+ # Measuring the frequency of Earthquakes
  
  (Press the "Run my Code" to access live Earthquake data.)
  
@@ -8,21 +8,17 @@
  
  Modern data collection is important to understand geographic events.  Using code we can access live data from the United Stated Geogrphical Services databases.
  
- */
-
-/*:
- 
- ### Choosing your own data
+ ## Choosing your own data
  
  (Press the "Run my Code" to access live Earthquake data.)
- 
+
  Complete the fields to display data
  
  ## Data is limited to 20,000 records if this exceeds this no data is returned.
  
- */
-
-///#-hidden-code
+*/
+ 
+//#-hidden-code
 //
 //  See LICENSE folder for this template’s licensing information.
 //
@@ -145,14 +141,14 @@ extension EarthQuakeInfo {
             }
         }
         
-        //        if let annotations = annotations {
-        //
-        //            annotations.canShowCallout = true
-        //            annotations.animatesDrop = true
-        //            annotations.calloutOffset = CGPoint(x: -5, y: 5)
-        //            annotations.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
-        //
-        //        }
+//        if let annotations = annotations {
+//            
+//            annotations.canShowCallout = true
+//            annotations.animatesDrop = true
+//            annotations.calloutOffset = CGPoint(x: -5, y: 5)
+//            annotations.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
+//            
+//        }
         
         return annotations
     }
@@ -200,3 +196,18 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 PlaygroundPage.current.liveView = mapView
 
 //#-end-hidden-code
+
+/*:
+ 
+ # Collating Data
+ 
+ The collection of accurate data helps us understand the geomorphic events of Earth.
+Using the US Geological source your are accessing through code, you will collected data on the frequency and size of earthquakes with a specified period.
+ 
+ 
+ 
+ 
+ */
+
+ 
+
