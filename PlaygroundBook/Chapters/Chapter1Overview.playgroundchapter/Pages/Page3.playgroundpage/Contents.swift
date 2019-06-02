@@ -57,6 +57,27 @@
  
 */
  
+
+/*:
+ 
+ # What is the power of an Earthquake.
+
+ We are going to compare the orders of magnitude of earthquakes against TNT.
+ 
+ TNT equivalent is a convention for expressing energy, typically used to describe the energy released in an explosion. The "ton of TNT" is a unit of energy defined by that convention to be 4.184 gigajoules,
+ 
+ A kiloton of TNT can be visualized as a cube of TNT 8.46 metres (27.8 ft) on a side.
+ 
+ The Nagasaki Atomic Bomb has the quialivant of 20 Kilotons of TNT.
+
+ ![Nagasaki Atomic bomb](1024px-Nagasakibomb.jpg)
+ 
+ Each of the following image that appears will represent 20 Kilotons of TNT:
+ 
+ ![Nagasaki Atomic bomb](AtomicBombexplosion.png)
+ 
+ 
+ */
 //#-hidden-code
 //
 //  See LICENSE folder for this template’s licensing information.
@@ -66,7 +87,6 @@
 //
 
 
-
 import UIKit
 import MapKit
 import PlaygroundSupport
@@ -74,10 +94,15 @@ import PlaygroundSupport
 PlaygroundPage.current.liveView = instantiateLiveView()
 
 
-
+//the maths of earthquake energy https://earthquake.usgs.gov/learn/topics/how_much_bigger.php
+//https://earthquake.usgs.gov/learn/topics/calculator.php
 
 
 PlaygroundPage.current.needsIndefiniteExecution = true
 PlaygroundPage.current.liveView = mapView
 
 //#-end-hidden-code
+
+
+
+

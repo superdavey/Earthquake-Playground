@@ -36,6 +36,10 @@
 		84FE169B22A36D5300FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE169822A36D5200FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png */; };
 		84FE169C22A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE169922A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png */; };
 		84FE169D22A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE169922A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png */; };
+		84FE16A222A3787D00FE8A1F /* 1024px-Nagasakibomb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84FE16A122A3787D00FE8A1F /* 1024px-Nagasakibomb.jpg */; };
+		84FE16A322A3787D00FE8A1F /* 1024px-Nagasakibomb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84FE16A122A3787D00FE8A1F /* 1024px-Nagasakibomb.jpg */; };
+		84FE16A522A37C0A00FE8A1F /* AtomicBombexplosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE16A422A37C0A00FE8A1F /* AtomicBombexplosion.png */; };
+		84FE16A622A37C0A00FE8A1F /* AtomicBombexplosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE16A422A37C0A00FE8A1F /* AtomicBombexplosion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -135,6 +139,8 @@
 		84FE168D22A369AE00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Continental-continental_conservative_plate_boundary_opposite_directions.png"; path = "plate images/Continental-continental_conservative_plate_boundary_opposite_directions.png"; sourceTree = SOURCE_ROOT; };
 		84FE169822A36D5200FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "800px-Oceanic-continental_destructive_plate_boundary.png"; path = "plate images/800px-Oceanic-continental_destructive_plate_boundary.png"; sourceTree = SOURCE_ROOT; };
 		84FE169922A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1920px-Continental-continental_destructive_plate_boundary.png"; path = "plate images/1920px-Continental-continental_destructive_plate_boundary.png"; sourceTree = SOURCE_ROOT; };
+		84FE16A122A3787D00FE8A1F /* 1024px-Nagasakibomb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1024px-Nagasakibomb.jpg"; path = "plate images/1024px-Nagasakibomb.jpg"; sourceTree = SOURCE_ROOT; };
+		84FE16A422A37C0A00FE8A1F /* AtomicBombexplosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AtomicBombexplosion.png; path = "plate images/AtomicBombexplosion.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +298,8 @@
 		84335004229EDA7100D27225 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84FE16A422A37C0A00FE8A1F /* AtomicBombexplosion.png */,
+				84FE16A122A3787D00FE8A1F /* 1024px-Nagasakibomb.jpg */,
 				84FE169822A36D5200FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png */,
 				84FE169922A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png */,
 				84FE168922A369AE00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png */,
@@ -411,12 +419,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FE168422A362A800FE8A1F /* tectonicPlates.png in Resources */,
+				84FE16A222A3787D00FE8A1F /* 1024px-Nagasakibomb.jpg in Resources */,
 				84FE169C22A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png in Resources */,
 				84FE168722A367C300FE8A1F /* plateMovement.mp4 in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 				84FE169422A369AF00FE8A1F /* 800px-Plates_tect2_en.png in Resources */,
 				84FE169622A369AF00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png in Resources */,
+				84FE16A522A37C0A00FE8A1F /* AtomicBombexplosion.png in Resources */,
 				84FE169A22A36D5300FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png in Resources */,
 				84FE168E22A369AF00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png in Resources */,
 				84FE169222A369AF00FE8A1F /* Continental-continental_constructive_plate_boundary.png in Resources */,
@@ -431,6 +441,8 @@
 				84FE168F22A369AF00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png in Resources */,
 				84FE169522A369AF00FE8A1F /* 800px-Plates_tect2_en.png in Resources */,
 				5EA2E3CA2056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard in Resources */,
+				84FE16A322A3787D00FE8A1F /* 1024px-Nagasakibomb.jpg in Resources */,
+				84FE16A622A37C0A00FE8A1F /* AtomicBombexplosion.png in Resources */,
 				84FE168522A362A800FE8A1F /* tectonicPlates.png in Resources */,
 				84FE168822A367C300FE8A1F /* plateMovement.mp4 in Resources */,
 				84FE169722A369AF00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png in Resources */,
