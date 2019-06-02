@@ -20,6 +20,8 @@
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
+		846659B122A40C0D00C09E5C /* april-2016-ecuador-earthquake-800x600.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 846659B022A40C0D00C09E5C /* april-2016-ecuador-earthquake-800x600.jpg */; };
+		846659B322A4111500C09E5C /* sichuan-wenchuan-earthquake-ruins-china.adapt.676.1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 846659B222A4111500C09E5C /* sichuan-wenchuan-earthquake-ruins-china.adapt.676.1.jpg */; };
 		84FE168422A362A800FE8A1F /* tectonicPlates.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168322A362A800FE8A1F /* tectonicPlates.png */; };
 		84FE168522A362A800FE8A1F /* tectonicPlates.png in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168322A362A800FE8A1F /* tectonicPlates.png */; };
 		84FE168722A367C300FE8A1F /* plateMovement.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84FE168622A367C300FE8A1F /* plateMovement.mp4 */; };
@@ -131,6 +133,8 @@
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
+		846659B022A40C0D00C09E5C /* april-2016-ecuador-earthquake-800x600.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "april-2016-ecuador-earthquake-800x600.jpg"; path = "plate images/april-2016-ecuador-earthquake-800x600.jpg"; sourceTree = SOURCE_ROOT; };
+		846659B222A4111500C09E5C /* sichuan-wenchuan-earthquake-ruins-china.adapt.676.1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sichuan-wenchuan-earthquake-ruins-china.adapt.676.1.jpg"; path = "plate images/sichuan-wenchuan-earthquake-ruins-china.adapt.676.1.jpg"; sourceTree = SOURCE_ROOT; };
 		84FE168322A362A800FE8A1F /* tectonicPlates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tectonicPlates.png; sourceTree = SOURCE_ROOT; };
 		84FE168622A367C300FE8A1F /* plateMovement.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = plateMovement.mp4; sourceTree = SOURCE_ROOT; };
 		84FE168922A369AE00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "800px-Continental-continental_destructive_plate_boundary.png"; path = "plate images/800px-Continental-continental_destructive_plate_boundary.png"; sourceTree = SOURCE_ROOT; };
@@ -298,6 +302,8 @@
 		84335004229EDA7100D27225 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				846659B222A4111500C09E5C /* sichuan-wenchuan-earthquake-ruins-china.adapt.676.1.jpg */,
+				846659B022A40C0D00C09E5C /* april-2016-ecuador-earthquake-800x600.jpg */,
 				84FE16A422A37C0A00FE8A1F /* AtomicBombexplosion.png */,
 				84FE16A122A3787D00FE8A1F /* 1024px-Nagasakibomb.jpg */,
 				84FE169822A36D5200FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png */,
@@ -419,8 +425,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FE168422A362A800FE8A1F /* tectonicPlates.png in Resources */,
+				846659B322A4111500C09E5C /* sichuan-wenchuan-earthquake-ruins-china.adapt.676.1.jpg in Resources */,
 				84FE16A222A3787D00FE8A1F /* 1024px-Nagasakibomb.jpg in Resources */,
 				84FE169C22A36D5300FE8A1F /* 1920px-Continental-continental_destructive_plate_boundary.png in Resources */,
+				846659B122A40C0D00C09E5C /* april-2016-ecuador-earthquake-800x600.jpg in Resources */,
 				84FE168722A367C300FE8A1F /* plateMovement.mp4 in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,

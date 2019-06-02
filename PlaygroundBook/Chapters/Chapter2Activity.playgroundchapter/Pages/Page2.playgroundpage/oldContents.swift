@@ -1,38 +1,9 @@
 /*:
  
- # Predicting future gemorphic hazards.
- 
- (Press the "Run my Code" to access live Earthquake data.)
- 
- As you have already learnt earthquakes are  a dailey occurence on our planet.
- You will know developed a model to predict the most likelt location of earthquakes over the soze of 5.5 magnitude on the Richter Scale.
- 
+ ### Predicting future gemorphic hazards.
 
  
- Task:  Can you predict future earthquakes?
- **You will work to predict a country or location that wille xperience a magnitude 5.5 or greater earthquake.**
- 1. State the time period will be predicting for: i.e. 2019 and provide a guess based on what you have observed from the frequncy data.
- *Your teacher will provide you with a time period for which you need to predict For the purposes of this activity you will pick an historical period.  However for a longer program your teacher may ahve you predict for a time in the following months.*
- 2. Using historical data: collating data for eathquakes.  The data con be collected over a period of time.  For example, you may choose a week period each month for the last two years.  You need to develop a
  
- 3. You will record the collated data in either numbers or excel.
- Record:
- * Date
- * Location
- * Size
- 
- 4. Use the data to create a graph.  You need to consider to most effective graph to show the location with the most frequent earthquakes.
- 5. Using the data grpahs propose a hypothese on which location/region is most likely to have experinced a major earthquake.
- 6 Extension: Research the impact of the earthquake on the enviorment and people of the affected region.
- 
- 
- ## Collecting your own data
- 
- (Press the "Run my Code" to access live Earthquake data.)
-
- Complete the fields to display data
- 
- ## Data is limited to 20,000 records if this exceeds this no data is returned.
  
 */
  
@@ -69,12 +40,10 @@ struct EarthQuakeInfo: Codable {
 struct MetaData: Codable {
     let generated: Int
     let title: String
-    let count: Int
     
     enum CodingKeys: String, CodingKey {
         case generated
         case title
-        case count
     }
 }
 
@@ -93,18 +62,10 @@ struct Features: Codable {
 struct FeaturesProperties: Codable {
     let mag: Double
     let place: String
-    let time: Int
-    let url: URL
-    let type: String
-    let title: String
     
     enum CodingKeys: String, CodingKey {
         case mag
         case place
-        case time
-        case url
-        case type
-        case title
     }
 }
 
@@ -118,9 +79,9 @@ struct FeaturesGeometry: Codable {
     }
 }
 
-func fetchEarthQuakeInfo(endTime: String, startTime: String, minMagnitude: Double, completion: @escaping (EarthQuakeInfo?) -> Void) {
-    let baseURL = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson"
-    let url = URL(string: baseURL + "&endtime=\(endTime)" + "&starttime=\(startTime)" + "&minmagnitude=\(minMagnitude)")!
+func fetchEarthQuakeInfo(completion: @escaping (EarthQuakeInfo?) -> Void) {
+    let baseURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson"
+    let url = URL(string: baseURL)!
     
     
     let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
@@ -154,20 +115,10 @@ extension EarthQuakeInfo {
                 let location = CLLocationCoordinate2DMake(Double(i.geometry.coordinates[1]), Double(i.geometry.coordinates[0]))
                 print(location)
                 annotation.coordinate = location
-                annotation.title = i.properties.title
+                annotation.title = i.properties.place
                 annotations.append(annotation)
             }
         }
-        
-//        if let annotations = annotations {
-//            
-//            annotations.canShowCallout = true
-//            annotations.animatesDrop = true
-//            annotations.calloutOffset = CGPoint(x: -5, y: 5)
-//            annotations.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
-//            
-//        }
-        
         return annotations
     }
 }
@@ -188,15 +139,7 @@ let camera = MKMapCamera(lookingAtCenter: mapRegion.center, fromDistance: 200000
 
 mapView.camera = camera
 
-//#-end-hidden-code
-
-let startTime = /*#-editable-code start date*/"2019-05-25"/*#-end-editable-code*/
-let endTime = /*#-editable-code start date*/"2019-05-31"/*#-end-editable-code*/
-let minMagnitude = /*#-editable-code start date*/2.0/*#-end-editable-code*/
-
-
-//#-hidden-code
-fetchEarthQuakeInfo(endTime: endTime, startTime: startTime, minMagnitude: minMagnitude) { (fetchedInfo) in
+fetchEarthQuakeInfo { (fetchedInfo) in
     if let fetchedInfo = fetchedInfo {
         print(fetchedInfo)
         print(fetchedInfo.asAnnotations)
@@ -214,4 +157,3 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 PlaygroundPage.current.liveView = mapView
 
 //#-end-hidden-code
-

@@ -87,6 +87,10 @@
 //
 
 
+// Add a calculation entry for stdeunts.  They should be able to enter a earthquake magnitude and then a number of nuclear explosion icons will appear to represent the entry of the quake.  1 icon = 20 ktn.  The icon is in the resources filder but I think I need to hrink it.  The maths of quike is in the following link:  https://earthquake.usgs.gov/learn/topics/calculator.php
+
+
+
 import UIKit
 import MapKit
 import PlaygroundSupport
