@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7181C122A796990086E9B7 /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7181C022A796990086E9B7 /* cover.png */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
 		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
@@ -112,6 +113,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B7181C022A796990086E9B7 /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* GeomorphicHazards.playgroundbook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeomorphicHazards.playgroundbook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				1B7181C022A796990086E9B7 /* cover.png */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
 			);
@@ -436,6 +439,7 @@
 				84FE169622A369AF00FE8A1F /* Continental-continental_conservative_plate_boundary_opposite_directions.png in Resources */,
 				84FE16A522A37C0A00FE8A1F /* AtomicBombexplosion.png in Resources */,
 				84FE169A22A36D5300FE8A1F /* 800px-Oceanic-continental_destructive_plate_boundary.png in Resources */,
+				1B7181C122A796990086E9B7 /* cover.png in Resources */,
 				84FE168E22A369AF00FE8A1F /* 800px-Continental-continental_destructive_plate_boundary.png in Resources */,
 				84FE169222A369AF00FE8A1F /* Continental-continental_constructive_plate_boundary.png in Resources */,
 			);
