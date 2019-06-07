@@ -1,27 +1,32 @@
 /*:
  
- ### Measuring the frequency of Earthquakes
+ # What is the Power of an Earthquake?
+
+ We are going to compare the orders of magnitude of earthquakes against TNT.
  
- (Press the "Run my Code" to access live Earthquake data.)
+ TNT equivalent is a convention for expressing energy, typically used to describe the energy released in an explosion. The "ton of TNT" is a unit of energy defined by that convention to be 4.184 gigajoules,
  
- As you have already learnt the Earth is always moving, though slowly.  When the Earth moves suddnely and quickly we refer to that event as an earthquake.
+ A kiloton of TNT can be visualized as a cube of TNT 8.46 metres (27.8 ft) on a side.
  
- Modern data collection is important to understand geographic events.  Using code we can access live data from the United Stated Geogrphical Services databases.
+ The Nagasaki Atomic Bomb has the quialivant of 20 Kilotons of TNT.
+
+ ![Nagasaki Atomic bomb](1024px-Nagasakibomb.jpg)
  
+ Each of the following image that appears will represent 20 Kilotons of TNT:
+ 
+ ![Nagasaki Atomic bomb](AtomicBombexplosion.png)
+ 
+ 
+ # How many TNT Bombs is that?.
+ 
+ Press the **"Run my Code"** to access Earthquake data for the specified date range and Magnitude.
+ 
+ The map will show the Energy of the Earthquake in Giga Joules and the number of equivalent (1 Tonne) TNT Bombs
+ 
+ *Data is limited to 20,000 records if this exceeds this no data is returned.*
  */
 
-/*:
- 
- ### Choosing your own data
- 
- (Press the "Run my Code" to access live Earthquake data.)
 
- Complete the fields to display data
- 
-*Data is limited to 20,000 records if this exceeds this no data is returned.*
- 
-*/
- 
 //#-hidden-code
 //
 //  See LICENSE folder for this template’s licensing information.
@@ -31,12 +36,13 @@
 //
 
 
+// Add a calculation entry for students.  They should be able to enter a earthquake magnitude and then a number of nuclear explosion icons will appear to represent the entry of the quake.  1 icon = 20 ktn.  The icon is in the resources filder but I think I need to shrink it.  The mathematics for quakes is in the following link:  https://earthquake.usgs.gov/learn/topics/calculator.php
 
 import UIKit
 import MapKit
 import PlaygroundSupport
 
-PlaygroundPage.current.liveView = instantiateLiveView()
+
 let str = "Live Earthquake Data"
 
 
@@ -139,20 +145,14 @@ extension EarthQuakeInfo {
                 let annotation = MKPointAnnotation()
                 let location = CLLocationCoordinate2DMake(Double(i.geometry.coordinates[1]), Double(i.geometry.coordinates[0]))
                 print(location)
+                let energyGenerated = pow(10,(i.properties.mag*1.5)+4.8)
+                let energyGeneratedGJ = energyGenerated/pow(10,9)
+                let bombEquivalent = energyGenerated/4184000000
                 annotation.coordinate = location
-                annotation.title = i.properties.title
+                annotation.title = "\(String(format: "%.3f", (energyGeneratedGJ)))GJ's or \(String(format: "%.3f", bombEquivalent)) TNT 💣's"
                 annotations.append(annotation)
             }
         }
-        
-//        if let annotations = annotations {
-//            
-//            annotations.canShowCallout = true
-//            annotations.animatesDrop = true
-//            annotations.calloutOffset = CGPoint(x: -5, y: 5)
-//            annotations.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
-//            
-//        }
         
         return annotations
     }
@@ -174,6 +174,7 @@ let camera = MKMapCamera(lookingAtCenter: mapRegion.center, fromDistance: 200000
 
 mapView.camera = camera
 
+
 //#-end-hidden-code
 
 let startTime = /*#-editable-code start date*/"2019-05-25"/*#-end-editable-code*/
@@ -182,6 +183,8 @@ let minMagnitude = /*#-editable-code start date*/2.0/*#-end-editable-code*/
 
 
 //#-hidden-code
+
+
 fetchEarthQuakeInfo(endTime: endTime, startTime: startTime, minMagnitude: minMagnitude) { (fetchedInfo) in
     if let fetchedInfo = fetchedInfo {
         print(fetchedInfo)
@@ -200,3 +203,6 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 PlaygroundPage.current.liveView = mapView
 
 //#-end-hidden-code
+
+
+

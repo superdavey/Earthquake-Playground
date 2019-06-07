@@ -1,20 +1,18 @@
 /*:
  
- # Measuring the frequency of Earthquakes
+ # Measuring the Frequency of Earthquakes
  
- (Press the "Run my Code" to access live Earthquake data.)
+ As you have already learnt the Earth is always moving, though slowly. When the Earth moves suddnely and quickly we refer to that event as an earthquake.
  
- As you have already learnt the Earth is always moving, though slowly.  When the Earth moves suddnely and quickly we refer to that event as an earthquake.
- 
- Modern data collection is important to understand geographic events.  Using code we can access live data from the United Stated Geogrphical Services databases.
+ Modern methods of data collection is important to understand geographic events. Using code we can access live data from the United Stated Geogrphical Services databases.
  
  ## Choosing your own data
  
- (Press the "Run my Code" to access live Earthquake data.)
-
+ Press the **"Run my Code"** to access live Earthquake data.
+ 
  Complete the fields to display data
  
- ## Data is limited to 20,000 records if this exceeds this no data is returned.
+ *Data is limited to 20,000 records if this exceeds this no data is returned.*
  
 */
  
@@ -203,9 +201,6 @@ PlaygroundPage.current.liveView = mapView
  
  The collection of accurate data helps us understand the geomorphic events of Earth.
 Using the US Geological source your are accessing through code, you will collected data on the frequency and size of earthquakes with a specified period.
- 
- 
- 
  
  */
 

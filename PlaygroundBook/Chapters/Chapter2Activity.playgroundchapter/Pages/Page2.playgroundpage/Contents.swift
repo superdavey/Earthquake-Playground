@@ -2,39 +2,37 @@
  
  # Predicting future gemorphic hazards.
  
- (Press the "Run my Code" to access live Earthquake data.)
+ Press the **"Run my Code"** to access live Earthquake data.
  
- As you have already learnt earthquakes are  a dailey occurence on our planet.
- You will know developed a model to predict the most likely location of earthquakes over the size of 5.5 magnitude on the Richter Scale.
+ Knowing that earthquakes are a daily occurence on our planet, you will now develope a model to predict the most likely location of earthquakes over the size of 5.5 magnitude on the Richter Scale.
  
-
+ ## Task:  Can you predict future earthquakes?
  
- Task:  Can you predict future earthquakes?
- **You will work to predict a country or location that wille experience a magnitude 5.5 or greater earthquake.**
- 1. State the time period that you will be predicting, for example: 2019, and provide a prediction based on what you have observed from the frequncy data.
+ In this task you will investigate whether you are able to predict a country or location that will experience a magnitude 5.5 or greater earthquake.
  * Your teacher will provide you with a time period for which you need to predict.
  * For the purposes of this activity you will pick an historical period.
- * However for a longer program your teacher may have you predict a time in the following months.
- 2. Using historical data: collating data for eathquakes.  The data con be collected over a period of time. For example, you may choose a week period each month for the last two years.  You need to develop a
+ * However for a longer program your teacher may have you predict a time in the future.
  
- 3. You will record the collated data in either numbers or excel.
- Record:
+ ### You will need to complete the following:
+ 
+ 1. State the time period that you will be predicting, for example: 2019, and provide a prediction based on what you have observed from the frequency data.
+ 2. Collate historical earthquake data. This data can be collected over a period of time. For example, you may choose a week period each month for the last two years.
+ 3. Record the collated data in a spreadsheet using either Numbers or Excel. The date should include at least the earthquake:
  * Date
  * Location
  * Size
- 
- 4. Use the data to create a graph.  You need to consider to most effective graph to show the location with the most frequent earthquakes.
- 5. Using the data grpahs propose a hypothese on which location/region is most likely to have experinced a major earthquake.
- 6 Extension: Research the impact of the earthquake on the enviorment and people of the affected region.
+ 4. Create a graph of the collected data. You will need to consider the most effective graph type that will show the location with the most frequent earthquakes.
+ 5. Using your graph, propose a hypotheses on which location/region is most likely to experience a major earthquake in the future.
+ 6. Extension: Research the impact of the earthquake on the environment and people of the affected region.
  
  
  ## Collecting your own data
  
- (Press the "Run my Code" to access live Earthquake data.)
+ Press the **"Run my Code"** to access live Earthquake data.
 
  Complete the fields to display data
  
- ## Data is limited to 20,000 records if this exceeds this no data is returned.
+ *Data is limited to 20,000 records if this exceeds this no data is returned.*
  
 */
  

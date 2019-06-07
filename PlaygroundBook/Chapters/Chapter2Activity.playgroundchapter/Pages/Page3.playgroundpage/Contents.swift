@@ -10,9 +10,6 @@
  Earthquakes are a common occurrence, rumbling below Earth's surface thousands of times every day. But major earthquakes are less common. Here are some things to do to prepare for an earthquake and what to do once the ground starts shaking.
  
  
- 
- 
- 
 */
  
 //#-hidden-code
