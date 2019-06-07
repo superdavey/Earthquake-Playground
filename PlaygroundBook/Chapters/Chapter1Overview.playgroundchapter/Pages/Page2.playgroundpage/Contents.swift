@@ -3,7 +3,7 @@
  ### What causes earthquakes?
  
  
-The Earth's surface if always moving even if you cannot feel it.  The Earth's crust is made up of pieces called Tectonic Plates.  Some are huge and some are small (By planet scale standards).  The plates come togethor like a very rough kigsaw.  However they are alwats moiving. Below is a map of the different tectonic plates.
+The Earth's surface is always moving even if you cannot feel it.  The Earth's crust is made up of pieces called Tectonic Plates.  Some are huge and some are relatively small (by planet scale standards).  The plates come together like a very rough jigsaw.  However they are always moving. Below is a map of the different tectonic plates.
 
  */
 
@@ -11,14 +11,14 @@ The Earth's surface if always moving even if you cannot feel it.  The Earth's cr
  
  ### Earth Tectonic Plates
  
-![The Earth's Tectonic Plates should be here](800px-Plates_tect2_en.png)
+![The Earth's Tectonic Plates](800px-Plates_tect2_en.png)
  Source:https://en.wikipedia.org/wiki/Plate_tectonics
  
- ### How plates move
+ ### How Plates move
  
  The plates more against each other in four different ways.
  
- * Divergent: the plates move apart. Spreading ridges, basin-range
+ * Divergent: the plates move apart. Spreading ridges, basin-range.
  ![The Earth's Tectonic Plates should be here](Continental-continental_constructive_plate_boundary.png)
  
  * Transform: shearing; plates slide past each other. Strike-slip motion.
@@ -27,10 +27,10 @@ The Earth's surface if always moving even if you cannot feel it.  The Earth's cr
  * Convergent: compressional; plates move toward each other.
  ![The Earth's Tectonic Plates should be here](800px-Continental-continental_destructive_plate_boundary.png)
  
- * Subduction: During convergent one plate slide beneath another 
+ * Subduction: During convergent one plate slide beneath another.
   ![The Earth's Tectonic Plates should be here](800px-Oceanic-continental_destructive_plate_boundary.png)
  
- The four types of movement result in different chnages to the Earth.  They build maountains, create valleys,, expand land or destroy it, or transform it as it moves.
+ The four types of movement result in different changes to the Earth.  They build mountains, create valleys, expands, destroys or transforms land as it moves.
  
  ### Video: What the plate movement looks like
  

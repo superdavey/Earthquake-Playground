@@ -5,15 +5,17 @@
  (Press the "Run my Code" to access live Earthquake data.)
  
  As you have already learnt earthquakes are  a dailey occurence on our planet.
- You will know developed a model to predict the most likelt location of earthquakes over the soze of 5.5 magnitude on the Richter Scale.
+ You will know developed a model to predict the most likely location of earthquakes over the size of 5.5 magnitude on the Richter Scale.
  
 
  
  Task:  Can you predict future earthquakes?
- **You will work to predict a country or location that wille xperience a magnitude 5.5 or greater earthquake.**
- 1. State the time period will be predicting for: i.e. 2019 and provide a guess based on what you have observed from the frequncy data.
- *Your teacher will provide you with a time period for which you need to predict For the purposes of this activity you will pick an historical period.  However for a longer program your teacher may ahve you predict for a time in the following months.*
- 2. Using historical data: collating data for eathquakes.  The data con be collected over a period of time.  For example, you may choose a week period each month for the last two years.  You need to develop a
+ **You will work to predict a country or location that wille experience a magnitude 5.5 or greater earthquake.**
+ 1. State the time period that you will be predicting, for example: 2019, and provide a prediction based on what you have observed from the frequncy data.
+ * Your teacher will provide you with a time period for which you need to predict.
+ * For the purposes of this activity you will pick an historical period.
+ * However for a longer program your teacher may have you predict a time in the following months.
+ 2. Using historical data: collating data for eathquakes.  The data con be collected over a period of time. For example, you may choose a week period each month for the last two years.  You need to develop a
  
  3. You will record the collated data in either numbers or excel.
  Record:

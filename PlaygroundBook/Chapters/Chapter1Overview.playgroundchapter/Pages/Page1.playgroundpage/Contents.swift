@@ -11,7 +11,7 @@
  What you will learn by the of this activity
  
  ## You will understand:
-* What is a geomorphic hazard
+* What a geomorphic hazard is
 * What causes earthquakes
 * How do we measure their power
 * Where do they most frequently occur
@@ -22,11 +22,11 @@ Geomorphic hazards are those originating from the lithosphere, including volcani
  
  **Why should we understand the impact of geomorphic hazards:**
 
- Geomorphic movement can have an dramatic impact on the planet and human society.  As part of tou study
+ Geomorphic movement can have an dramatic impact on the planet and human society.  As part of our study
  
 **Why is it important to understand such hazards:**
 
- You would know of earthquakes from the news and movies.  However do you know how often theu occur and the true impact they can have on human society.
+ You would know of earthquakes from the news and movies.  However do you know how often they occur and the true impact they can have on human society.
  
 */
 
